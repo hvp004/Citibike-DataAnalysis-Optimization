@@ -28,5 +28,27 @@ The dataset contains the following attributes:
 
 There are two peaks for `usertype` Subscriber while `usertype` Customer has a curve from 10 AM to 7 PM with maximum number of customer riders.
  
-![alt text](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/rush_hour_sub.jpg) ![alt text](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/rush_hour_cust.jpg)
+![](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/rush_hour_sub.jpg) 
+![](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/rush_hour_cust.jpg)
 
+#### B. Daily Ride Analysis
+
+There is a fine correlation between the fact that if a particular day is a weekend or not and the number of subscribers and number of customers. The number of subscribers are particularly high on weekdays while the number of customers are high on weekends. This makes sense as the subscribers are the users who use CitiBike service for their daily commute to and from work. A special case can be noticed for 4th of July, which is the public holiday. Even though 4th of July is a weekday, we have a higher number of customers on that day. 
+
+![](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/ride_count_july_sub.jpg)
+![](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/ride_count_july_cust.jpg) 
+
+Similar kind of a trend is observed for the month of March. However, the total number of riders are decreased for both the type of usertype customer and subscriber. While there is a drastic reduction in user type customer, number of subscribers are decreased as well. Specifically, on the days of 14th, 15th and 16th of March, no riders are noticed. As with subscribers, more number of subscribers are noticed for the weekdays and on weekends, more number of customers are noticed. 
+
+![](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/ride_count_march_sub.jpg)
+![](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/ride_count_march_cust.jpg) 
+
+Similar trend for month of October. However, significantly lower rides in last week of October is observed. 
+
+![](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/ride_count_oct_sub.jpg)
+![](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/ride_count_oct_cust.jpg) 
+
+In December, very low number of rides are noticed. That makes me wonder if weather parameters are affecting. 
+
+![](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/ride_count_dec_sub.jpg)
+![](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/ride_count_dec_cust.jpg) 
