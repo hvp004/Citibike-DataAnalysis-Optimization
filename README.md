@@ -28,7 +28,5 @@ The dataset contains the following attributes:
 
 There are two peaks for `usertype` Subscriber while `usertype` Customer has a curve from 10 AM to 7 PM with maximum number of customer riders.
  
-![alt text](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/rush_hour_sub.jpg)
-
-![alt text](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/rush_hour_cust.jpg)
+![alt text](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/rush_hour_sub.jpg) ![alt text](https://github.com/hvp004/Citibike-DataAnalysis-Optimization/blob/master/graphs/rush_hour_cust.jpg)
 
